@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Terminal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center h-screen font-sans">
+    <nav class="w-full bg-gray-800 py-4 px-6 flex justify-between items-center fixed top-0 shadow-lg">
+        <h1 class="text-xl font-bold text-blue-400">Open Terminal</h1>
+        <div>
+            <a href="/" class="text-white px-4 hover:text-blue-400 transition">Home</a>
+            <a href="/about" class="text-white px-4 hover:text-blue-400 transition">About</a>
+        </div>
+    </nav>
+    <div class="mt-20 text-center">
+        <h1 class="text-5xl font-extrabold">Open Terminal</h1>
+        <p class="text-lg mt-4 text-gray-300">{{ slogan }}</p>
+    </div>
+</body>
+</html>

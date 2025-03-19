@@ -1,0 +1,33 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Open Terminal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen font-sans">
+    <nav class="w-full bg-gray-800 py-4 px-6 flex justify-between items-center fixed top-0 shadow-lg">
+        <h1 class="text-xl font-bold text-blue-400">Open Terminal</h1>
+        <div>
+            <a href="/" class="text-white px-4 hover:text-blue-400 transition">Home</a>
+            <a href="/about" class="text-white px-4 hover:text-blue-400 transition">About</a>
+        </div>
+    </nav>
+    <div class="max-w-4xl mx-auto text-center p-6 mt-20">
+        <h1 class="text-4xl font-extrabold text-blue-400 drop-shadow-lg">About Open Terminal</h1>
+        <p class="text-lg mt-4 text-gray-300 leading-relaxed">{{ description }}</p>
+        
+        <h2 class="text-3xl font-semibold mt-10 text-purple-400 drop-shadow-md">Core Features</h2>
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="bg-purple-600 text-white px-6 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-all">Realtime Watchlists</div>
+            <div class="bg-purple-500 text-white px-6 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-all">Placing Orders from Watchlists</div>
+            <div class="bg-blue-600 text-white px-6 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-all">Order Book, Trade Book, Position Book, Holdings</div>
+            <div class="bg-teal-500 text-white px-6 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-all">Trailing Stoploss Orders, MTM Based Square Off</div>
+            <div class="bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-all">Voice-Based Trading System</div>
+            <div class="bg-green-700 text-white px-6 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-all">Keyboard-Based Orders</div>
+        </div>
+    </div>
+</body>
+</html>
